@@ -1,20 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE  html> 
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
-  box-sizing: border-box;
+              box-sizing: border-box;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.row: :after {
+   content:" ";
+   clear: both;
+   display: table;
+
 }
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  background-color: #0A0A0A;
+[class*="col-"]  {
+        float: left;
+		padding: 15px;
+		   background-color: #0A0A0A;
 }
 
 .col-1 {width: 8.33%; }
@@ -30,68 +31,42 @@
 .col-11{width: 91.66%; }
 .col-12{width: 100%; }
 html {
-  font-family: "Lucinda Sans", sans-serif;
-  background-color: #0A0A0A;
+          font-family: "Lucinda Sans", sans-serif;
+		  background-color: #0A0A0A;
 }
 .header {
-  background-color: #3D3C3C;
-  color:#ffffff;
-  padding: 15px;
+         background-color: #3D3C3C;
+		 color:#ffffff;
+		 padding: 15px;
 }
 .menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+         list-style-type: none;
+		 margin: 0;
+		 padding: 0;
 }
 .menu li {
-  padding: 8px;
-  margin-bottom:7px;
-  background-color:#211260;
-  color: #ffffff;
-  box-shadow:  0 1px  3px rgba(0,0,0,0.12),  0 1px 2px rgba(0,0,0.24);
+         padding: 8px;
+		 margin-bottom:7px;
+ 		 background-color:#211260;
+		 color: #ffffff;
+		 box-shadow:  0 1px  3px rgba(0,0,0,0.12),  0 1px 2px rgba(0,0,0.24);
 }
 .menu li:hover {
-  background-color: #9072B6;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-  display: block;
+         background-color: #9072B6;
 }
 .balls{
-  text-align: center;
-  font-size: 200%;
-  color: white;
+	text-align: center;
+	font-size: 200%;
+	color: white;
 }
 
 .heil{
-  text-align: center;
-  font-size: 110%;
-  color: white;
+	text-align: center;
+	font-size: 110%;
+	color: white;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0.5rem auto;
-}
-
-@media (max-width: 1000px) {
-  .col {
-    width: 100%;
-    float: none ;
-    padding: 10px;
-    background-color: transparent;
-  }
-  .menu li {
-    margin-bottom: 6px;
-  }
-  .menu {
-    padding-bottom: 10px;
-  }
-  .header h1 {
-    text-align: center;
-  }
+a{
+	color: white;
 }
 </style>
 </head>
@@ -99,47 +74,45 @@ img {
 <body>
 
 <div class="header">
-  <h1>planes</h1>
-</div>
-
-<div class="row">
-
-  <div class="col-3 menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="a320.html">Airbus A320-200</a></li>
-      <li><a href="a20n.html">Airbus A320-251 NEO</a></li>
-      <li><a href="b738.html">Boeing 737-800</a></li>
-      <li><a href="b39m.html">Boeing 737 MAX 9</a></li>
-      <li><a href="a333.html">Airbus A330-300</a></li>
-      <li><a href="a339.html">Airbus A330-900</a></li>
-      <li><a href="b77w.html">Boeing 777-300ER</a></li>
-      <li><a href="a346.html">Airbus A340-600</a></li>
-      <li><a href="a359.html">Airbus A350-900</a></li>
-      <li><a href="b752.html">Boeing 757-200</a></li>
-      <li><a href="b763.html">Boeing 767-300ER</a></li>
-      <li><a href="dc10.html">McDonnell Douglas DC-10</a></li>
-      <li><a href="md11.html">McDonnell Douglas MD-11</a></li>
-      <li><a href="dc95.html">McDonnell Douglas DC-9</a></li>
-      <li><a href="crj7.html">Bombardier CRJ-700</a></li>
-      <li><a href="q400.html">Bombardier Dash 8 Q400</a></li>
-      <li><a href="sf50.html">Cirrus Vision Jet SF50</a></li>
-      <li><a href="lj45.html">Bombardier Learjet 45</a></li>
-      <li><a href="c750.html">Cessna Citation X</a></li>
-      <li><a href="b744.html">Boeing 747-400</a></li>
-    </ul>
-  </div>
-
-  <div class="col-9">
-    <h1 class="balls">Airbus A320neo</h1>
-    <img src="pic/a20n.jpg" alt="Airbus A320neo">
-    <p class="heil">The Airbus A320neo is an incremental development of the A320 family of narrow-body airliners produced by Airbus. The A320neo family (neo being Greek for "new", as well as an acronym [...]
-    </p>
-
-    <p class="heil">Re-engined with CFM International LEAP or Pratt & Whitney PW1000G engines and fitted with sharklet wingtip devices as standard, the A320neo is 15% to 20% more fuel efficient than pre[...]
-    </p>
-  </div>
-
-</div>
+         <h1 align=center >planes</h1>
+		 </div>
+		 
+		 <div class="row">
+		 
+		 <div class="col-3 menu">
+		   <ul>
+		        <a href=index.html><li>Home</h1> </a>
+				<a href=a320.html> <li>Airbus A320-200</li> </a>
+				<a href=a20n.html><li>Airbus A320-251 NEO</li></a>
+				<a href=b738.html><li>Boeing 737-800</li></a>
+				<a href=b39m.html><li>Boeing 737 MAX 9</li></a>
+				<a href=a333.html><li>Airbus A330-300</li></a>
+				<a href=a339.html><li>Airbus A330-900</li></a>
+				<a href=b77w.html><li>Boeing 777-300ER</li></a>
+				<a href=a346.html><li>Airbus A340-600</li></a>
+				<a href=a359.html><li>Airbus A350-900</li></a>
+				<a href=b752.html><li>Boeing 757-200</li></a>
+				<a href=b763.html><li>Boeing 767-300ER</li></a>
+				<a href=dc10.html><li>McDonnell Douglas DC-10</li></a>
+				<a href=md11.html><li>McDonnell Douglas MD-11</li></a>
+				<a href=dc95.html><li>McDonnell Douglas DC-9</li></a>
+				<a href=crj7.html><li>Bombardier CRJ-700</li></a>
+				<a href=q400.html><li>Bombardier Dash 8 Q400</li></a>
+				<a href=sf50.html><li>Cirrus Vision Jet SF50</li></a>
+				<a href=lj45.html><li>Bombardier Learjet 45</li></a>
+				<a href=c750.html><li>Cessna Citation X</li></a>
+				<a href=b744.html><li>Boeing 747-400</li></a>
+		  </ul>
+		 </div>
+		 
+		 <div class="col-9">
+		     <h1 class=balls>Airbus A320neo</h1>
+			 <img src="pic\a20n.jpg">
+			 <p class=heil>The Airbus A320neo is an incremental development of the A320 family of narrow-body airliners produced by Airbus. The A320neo family (neo being Greek for "new", as well as an acronym for "new engine option") is based on the enhanced variant of the previous generation A319, A320, and A321, which was then retroactively renamed the A320ceo family (ceo being an acronym for "current engine option").</p>
+			 
+			 <p class=heil>Re-engined with CFM International LEAP or Pratt & Whitney PW1000G engines and fitted with sharklet wingtip devices as standard, the A320neo is 15% to 20% more fuel efficient than previous models, the A320ceo. It was launched on 1 December 2010, made its first flight on 25 September 2014 and was introduced by Lufthansa on 25 January 2016.</p>
+		 </div>
+		 
+		 </div>
 </body>
 </html>
